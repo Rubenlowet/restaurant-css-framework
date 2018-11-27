@@ -1,0 +1,24 @@
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+.container-fluid{
+padding-bottom: 100px;
+background-image: url("/home/ruben/Desktop/restaurant-css-framework/images/japanese background.jpg");
+background-size: 1400px 600px;
+background-repeat: no-repeat;
+}
+h2{
+  font-size: 60px;
+}
+.background{
+padding-bottom: 30px;
+background-image: url("/home/ruben/Desktop/restaurant-css-framework/images/japanese background.jpg");
+background-size: 1800px 850px;
+background-repeat: no-repeat;
+}
