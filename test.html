@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Menu's</title>
+    <title>Foto's</title>
   </head>
   <body>
 <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="/home/ruben/Desktop/restaurant-css-framework/images/esaki-logo.png" alt="Esaki-logo" width="120px" height="110px">
+        <img src="images/esaki-logo.png" alt="Esaki-logo" width="120px" height="110px">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,33 +38,44 @@
         </ul>
       </div>
     </nav>
-<div class="background center"
-<div class="container-fluid left">
-  <h2 class="text-danger">Esaki sushi-menu €40</h2>
-  <h3><strong>Driegangenmenu</strong></h3>
-  <p>
-    <strong>voorgerecht</strong><br>
-    soep naar keuze+zeewiersalade+dimsum of tempura<br>
-    <strong>hoofdgerecht</strong><br>
-    sushiboot(24 stuks)<br>
-    <strong>nagerecht</strong><br>
-    naar keuze
-  </p><br>
-  <hr>
+<!--form-->
+<form>
+<div class="background">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4"><strong>Email</strong></label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress"><strong>Address</strong></label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2"><strong>Address 2</strong></label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity"><strong>City</strong></label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState"><strong>State</strong></label>
+      <select id="inputState" class="form-control">
+        <option selected><strong>Choose...</strong></option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip"><strong>Zip</strong></label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
 
-  <h2 class="text-danger">Esaki teryaki-menu €35</h2>
-  <h3><strong>Driegangenmenu</strong></h3>
-  <p>
-    <strong>voorgerecht</strong><br>
-    soep naar keuze+zeewiersalade+dimsum of tempura<br>
-    <strong>hoofdgerecht</strong><br>
-    Teriyaki naar keuze (Eend, rund, kip, zalm of zeevruchten<br>
-    <strong>nagerecht</strong><br>
-    naar keuze
-  </p>
-
-</div>
-</div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
